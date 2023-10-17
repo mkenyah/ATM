@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    border: 10px solid rgb(10, 10, 10);
+    background-color: gold;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    margin: auto;
+    line-height: 50px;
+}
+h2{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#amount{
+    text-align: center;
+    margin: 30px;
+    height: 60px;
+   padding: 28px;
+   font-family: fantasy;
+   font-size: 15px;
+}
+#amount:hover{
+    border: 3px solid black;
+    
+}
+#deposit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 20px;
+    justify-content: center;
+}
+#deposit:hover{
+    background-color: black;
+    color: white;
+}
+
+#withdraw{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+}
+#withdraw:hover{
+    background-color: black;
+    color: white;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    padding: auto;
+}
